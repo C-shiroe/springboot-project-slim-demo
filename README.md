@@ -10,7 +10,7 @@
 
 
 
-**方案：**单个springboot应用可以分离为依赖组件lib目录和业务代码jar文件来部署；多个微服务应用可以将重复的依赖合并到统一lib目录下，再与多个只有两三百KB的业务代码jar一起部署，整个项目的文件大小就能极大的缩小。
+**方案：** 单个springboot应用可以分离为依赖组件lib目录和业务代码jar文件来部署；多个微服务应用可以将重复的依赖合并到统一lib目录下，再与多个只有两三百KB的业务代码jar一起部署，整个项目的文件大小就能极大的缩小。
 
 
 
@@ -156,7 +156,7 @@ pom.xml插件部分设定如下：
 
 `mvn clean package`打包
 
-![mvn clean package](./src/main/resources/static/images/mvn clean package.png)
+![mvn clean package](./src/main/resources/static/images/mvn-clean-package.png)
 
 根据pom文件里lib文件的设定，项目部署目录如下：
 
