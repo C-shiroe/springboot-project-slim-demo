@@ -20,13 +20,13 @@
 
 依赖：
 
-![依赖](.\src\main\resources\static\images\yilai.png)
+![依赖](./src/main/resources/static/images/yilai.png)
 
 
 
 项目目录：
 
-![项目结构](.\src\main\resources\static\images\xiangmujiegou.png)
+![项目结构](./src/main/resources/static/images/xiangmujiegou.png)
 
 
 
@@ -45,31 +45,31 @@ spring:
 
 测试接口：
 
-![测试接口](.\src\main\resources\static\images\ceshijiekou.png)
+![测试接口](./src/main/resources/static/images/ceshijiekou.png)
 
 
 
 ### 分离前
 
-![origin-jar](.\src\main\resources\static\images\origin-jar.png)
+![origin-jar](./src/main/resources/static/images/origin-jar.png)
 
 
 
-![origin-jar-menu](.\src\main\resources\static\images\origin-jar-menu.png)
+![origin-jar-menu](./src/main/resources/static/images/origin-jar-menu.png)
 
 
 
 ### 分离后
 
-![slim-jar](.\src\main\resources\static\images\slim-jar.png)
+![slim-jar](./src/main/resources/static/images/slim-jar.png)
 
 
 
-![slim-jar-menu](.\src\main\resources\static\images\slim-jar-menu.png)
+![slim-jar-menu](./src/main/resources/static/images/slim-jar-menu.png)
 
 
 
-![manifest](.\src\main\resources\static\images\manifest.png)
+![manifest](./src/main/resources/static/images/manifest.png)
 
 
 
@@ -156,27 +156,27 @@ pom.xml插件部分设定如下：
 
 `mvn clean package`打包
 
-![mvn clean package](.\src\main\resources\static\images\mvn clean package.png)
+![mvn clean package](./src/main/resources/static/images/mvn clean package.png)
 
 根据pom文件里lib文件的设定，项目部署目录如下：
 
-![bushu-menu](.\src\main\resources\static\images\bushu-menu.png)
+![bushu-menu](./src/main/resources/static/images/bushu-menu.png)
 
-![lib](.\src\main\resources\static\images\bushu-menu-lib.png)
+![lib](./src/main/resources/static/images/bushu-menu-lib.png)
 
 
 
 `java -jar springboot-project-slim-demo-slim.jar`启动项目：使用外部配置文件末尾就加`--spring.profiles.active=xxx`
 
-![slim-jar-start](.\src\main\resources\static\images\slim-jar-start.png)
+![slim-jar-start](./src/main/resources/static/images/slim-jar-start.png)
 
 
 
-发送测试请求：![request](.\src\main\resources\static\images\request.png)
+发送测试请求：![request](./src/main/resources/static/images/request.png)
 
 
 
-![result](.\src\main\resources\static\images\result.png)
+![result](./src/main/resources/static/images/result.png)
 
 
 
