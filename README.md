@@ -1,6 +1,6 @@
 # SpringBoot项目瘦身💪
 
-![](https://img.shields.io/badge/JDK-1.8+-orange)	![](https://img.shields.io/badge/Spring Boot-2.3.9.RELEASE-green)	![](https://img.shields.io/badge/Maven-3.6.0-blue)
+![](https://img.shields.io/badge/JDK-1.8+-orange)	![](https://img.shields.io/badge/SpringBoot-2.3.9.RELEASE-green)	![](https://img.shields.io/badge/Maven-3.6.0-blue)
 
 记录一下从微信公众号 **小哈学Java** 看到的文章关于springboot部署jar文件的学习心得，详情可参考文章🔗[小哈学Java-xautlx-SpringBoot 部署 Jar 文件，瘦身优化指南！](https://mp.weixin.qq.com/s/sZv9GXNDTWoONVRXEldkbQ)，文章完整示例工程源码🔗：[gitee-xautlx](https://gitee.com/xautlx/package-optimize-demo)、[github-xautlx](https://github.com/xautlx/package-optimize-demo)
 
